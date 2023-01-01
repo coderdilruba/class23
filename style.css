@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo img{
+    width: 110px;
+}
+.menu{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+.menu-data ul{
+    display: flex;
+}
+.menu-data ul li{
+    list-style: none;
+}
+.menu-data ul li a{
+    padding: 10px 10px;
+    display: block;
+    margin-left: 5px;
+    color: aliceblue;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.flex-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.flex-item{
+   flex-basis: 70%;
+}
+.justify-align{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-start{
+    width: 325px;
+    height: 300px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.content-center{
+    width: 325px;
+    height: 300px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-end{
+    width: 325px;
+    height: 300px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+.item{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.threeitem{
+    display: flex;
+    margin-top: 30px;
+}
+.flex-item1{
+    border: 2px solid green;
+    margin: 0px 19px;
+    display: flex;
+    flex: 1 0 0%;
+    padding: 20px;
+}
+.growitem{
+    flex-grow: 2;
+}
+.threeitem1{
+    display: flex;
+    margin: 30px 0;
+}
+.flex-item2{
+    border: 2px solid green;
+    flex: 1;
+    margin: 0px 20px;
+    display: flex;
+    padding: 20px;
+}
+.flex-btn{
+    background-color: red;
+    border: 1px solid green;
+    color: aliceblue;
+    padding: 10px;
+}
+.style1{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.style2{
+    flex-wrap: wrap;
+}
+.style3{
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+.style4{
+    align-self: center;
+}
+.style5{
+    align-self: flex-end;
+}
+.flex-item-sidebar{
+   flex-basis: 30%;
+    align-items: stretch;
+    border-left: 2px solid  red;
+    box-sizing: border-box;
+    padding: 40px 30px;
+    background-color: gray;
+}
+.text-item h4,img,p{
+    margin-top: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.footer ul{
+    display: flex;
+    padding: 20px;
+}
+
+.footer ul li a{
+    color: aliceblue;
+    padding: 10px;
+    text-decoration:underline;
+
+}
+
+.header
+{
+  background-color: #000;
+}
+
+
+
+
+
+
+
+.flex-content
